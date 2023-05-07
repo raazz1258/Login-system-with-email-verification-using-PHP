@@ -2,8 +2,8 @@
 session_start();
 require "connection.php";
 require "send_email.php";
-$public_key = "6LeN9NEgAAAAAEPk-zsahpYcY85ABRPDkHQnWoyR";
-$private_key = "6LeN9NEgAAAAANVThbk69RX-6kcAHA3DFSvoQrbS";
+$public_key = "your recaptcha public key";
+$private_key = "your recaptcha secret key";
 $url = "https://www.google.com/recaptcha/api/siteverify";
 $email = "";
 $name = "";
